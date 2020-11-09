@@ -6,7 +6,7 @@ RUN set -ex \
 ENV BITCOIN_ABC_VERSION=0.22.6
 ENV BITCOIN_ABC_DIR="bitcoin-abc-${BITCOIN_ABC_VERSION}"
 ENV BITCOIN_ABC_DIST="bitcoin-abc-${BITCOIN_ABC_VERSION}-x86_64-linux-gnu.tar.gz"
-# https://download.bitcoinabc.org/0.21.7/jasonbcox-sha256sums.0.21.7.asc
+# https://download.bitcoinabc.org/0.22.6/fabien-sha256sums.0.22.6.asc
 ENV BITCOIN_ABC_SHASUM="5ca44134bfada01530aa7e7ba17dda2a946f417d9be1114473dd9c63f41d6b78  ${BITCOIN_ABC_DIST}"
 ENV BITCOIN_ABC_DATA=/root/.bitcoin
 
